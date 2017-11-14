@@ -9,7 +9,9 @@ public class j_7114_04 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("입력 : ");
-		int n = sc.nextInt();
+		String input = sc.nextLine();
+		int n = Integer.parseInt(input);//String을 사용한 구버젼.
+		//int n = sc.nextInt();
 		
 		System.out.println("n : "+n);
 		
