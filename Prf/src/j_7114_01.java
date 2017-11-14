@@ -14,6 +14,17 @@ public class j_7114_01 {
 		
 		byte by1 = 127;
 		System.out.println("by1 : "+by1);
+		
+		char ch2 = (char)by1;
+		System.out.println("ch2 : "+ch2);
+		
+		long lo = 100000000L;
+		System.out.println("lo : "+lo);
+		
+		float fo = 2.34F;
+		
+		String str = "hello";
+		
 	}
 
 }
