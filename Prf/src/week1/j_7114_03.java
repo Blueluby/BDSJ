@@ -1,3 +1,4 @@
+package week1;
 public class j_7114_03 {
 
 	public static void main(String[] args) {

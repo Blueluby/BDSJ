@@ -1,3 +1,4 @@
+package week1;
 import java.lang.System;
 
 public class j_7113_01 {

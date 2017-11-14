@@ -1,3 +1,4 @@
+package week1;
 
 public class j_7114_02 {
 
