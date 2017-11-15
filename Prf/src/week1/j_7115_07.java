@@ -9,6 +9,8 @@ public class j_7115_07 {
 		
 		System.out.println("n1 - "+n1);
 		System.out.println("n2 - "+n2);
+		
+		
 	}
 
 }
