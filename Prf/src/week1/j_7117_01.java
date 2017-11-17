@@ -15,7 +15,12 @@ public class j_7117_01 {
 		Scanner sc = new Scanner(System.in);
 		g = sc.nextInt();		
 		
-		if(g>=90) {
+		while( g > 100 || g < 0 ) {
+			System.out.print("범위가 이상합니다 재입력하세요 ( 0~100 ): ");
+			g = sc.nextInt();
+		}
+		
+		if( g >= 90 ) {
 			s += "A";
 			if( g >= 98) {	s += "+"; }
 			else if( g < 94 ) { s += "-"; }
