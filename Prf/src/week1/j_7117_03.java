@@ -1,6 +1,6 @@
 package week1;
 
-public class j_7118_03 {
+public class j_7117_03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
