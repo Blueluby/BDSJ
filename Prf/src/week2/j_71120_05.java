@@ -14,7 +14,6 @@ public class j_71120_05 {
 				sum += cnt;
 				if(cnt>90)
 					str = cnt+"";
-				
 				System.out.print(str);
 			}
 			cnt++;
