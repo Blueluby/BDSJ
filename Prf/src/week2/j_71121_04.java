@@ -10,5 +10,4 @@ public class j_71121_04 {
 			System.out.println("i:"+i+"\ttotal : "+sum);
 		}
 	}
-
 }
