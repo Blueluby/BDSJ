@@ -12,7 +12,6 @@ public class j_71122_01 {
 		while(!(i<0)) {
 			System.out.print("나이 입력 : ");
 			i = s.nextInt();
-//			System.out.println(i/10+"0대");
 			
 			switch(i/10) {
 			case 0:
