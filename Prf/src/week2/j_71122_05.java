@@ -5,8 +5,8 @@ public class j_71122_05 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		forw();
-				
 		rev();
+		
 	}
 	
 	public static void forw() {
@@ -21,10 +21,11 @@ public class j_71122_05 {
 			}
 			System.out.println();
 		}
+		System.out.println("\n");
 	}
 
 	public static void rev() {
-		System.out.println("\n[rev]");
+		System.out.println("[rev]");
 		int c = 1, cnt = 2;
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
@@ -36,5 +37,6 @@ public class j_71122_05 {
 			cnt--;
 			System.out.println();
 		}
+		System.out.println("\n");
 	}
 }
