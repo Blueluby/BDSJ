@@ -14,10 +14,21 @@ public class j_71122_02 {
 			for(j=0; j<3; j++) {
 				System.out.println("¾ÈÂÊ"+(j+1)+"Â÷");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 		
-		vtest();
+		int a=2, b=2;
+		while(a<10) {
+			while(b<10) {
+				System.out.print(a + "x" + b + "=" + a * b + "\t");
+				b++;
+			}
+			System.out.println();
+			b=2;
+			a++;
+		}
+
+		//vtest();
 	}
 	
 	public static void vtest() {
@@ -38,22 +49,25 @@ public class j_71122_02 {
 			for(a=0; a<jmax;a++) {
 				y+=d;
 				i[x][y]=cnt;
+				System.out.print("  "+cnt + ", (x:"+x+",y:"+y+")");
 				cnt++;
 			}
 			jmax--;
 			for(a=0;a<jmax;a++) {
 				x+=d;
 				i[x][y]=cnt;
+				System.out.print("  "+cnt + ", (x:"+x+",y:"+y+")");
 				cnt++;
 			}
-			d=d*-1;
+			System.out.println();
+			d*=-1;
 		}
 		
 		for(int q=0; q<si; q++) {
 			for(int w=0; w<si; w++) {
 				System.out.print(i[q][w]+"\t");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 	}
 }
