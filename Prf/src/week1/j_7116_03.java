@@ -6,12 +6,12 @@ public class j_7116_03 {
 		// TODO Auto-generated method stub
 		int n = 120;
 		if (n < 0) {
-			System.out.println("0¹Ì¸¸");
+			System.out.println("ìŒìˆ˜ ìž…ë ¥");
 		} else {
 			if (n < 100) {
-				System.out.println("0 ÀÌ»ó 100 ¹Ì¸¸");
+				System.out.println("100ì´í•˜");
 			} else {
-				System.out.println("100 ÀÌ»ó");
+				System.out.println("100ì´ìƒ");
 			}
 		}
 	}
