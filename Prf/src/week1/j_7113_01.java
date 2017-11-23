@@ -11,7 +11,6 @@ public class j_7113_01 {
 		
 		System.out.println("num : "+n);
 		System.out.println(1+2);
-		System.out.println("≥¢è°≥¢");
 		
 	}
 }
