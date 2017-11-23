@@ -9,7 +9,7 @@ public class j_7117_07 {
 		char gender=' ';
 		String regNo = "";
 		
-		System.out.print("ÁÖ¹Î¹øÈ£? (001122-1111222) :");
+		System.out.print("ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ ì…ë ¥  (001122-1111222) :");
 		
 		Scanner sc = new Scanner(System.in);
 		regNo = sc.nextLine();
@@ -18,25 +18,25 @@ public class j_7117_07 {
 		gender = regNo.charAt(7);
 		switch(gender) {
 		case '1': case '3':
-			System.out.println("³²ÀÚ");
+			System.out.println("ë‚¨ì");
 			break;
 		case '2': case '4':
-			System.out.println("¿©ÀÚ");
+			System.out.println("ì—¬ì");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ°Å");
+			System.out.println("ì…ë ¥ì˜¤ë¥˜");
 		}
 		
 		String aa = regNo.charAt(7)+"";
 		switch(aa) {
 		case "1": case "3":
-			System.out.println("³²ÀÚ");
+			System.out.println("ë‚¨ì");
 			break;
 		case "2": case "4":
-			System.out.println("¿©ÀÚ");
+			System.out.println("ì—¬ì");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ°Å");
+			System.out.println("ì…ë ¥ì˜¤ë¥˜");
 		}
 		
 	}
