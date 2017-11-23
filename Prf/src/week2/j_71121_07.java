@@ -9,12 +9,12 @@ public class j_71121_07 {
 		int i=0;
 		Scanner s = new Scanner(System.in);
 		
-		System.out.print("±¸±¸´Ü ´Ü¼ö ÀÔ·Â(Á¤¼ö) : ");
+		System.out.print("ìˆ«ì ì…ë ¥ : ");
 		i = s.nextInt();
 		
 		for(int j=0; j<10; j++) {
 			if(j==0)
-				System.out.println("["+i+"´Ü]");
+				System.out.println("["+i+"ï¿½ï¿½]");
 			else
 				System.out.println(i +"x"+ j +"="+i*j);
 		}
