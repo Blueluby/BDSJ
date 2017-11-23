@@ -5,21 +5,21 @@ public class j_7117_03 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int n = 24;
+		int n = 9;
 		
 		switch(n/10) {
 		case 0:
-			System.out.println("0ÀÌ»ó 10 ¹Ì¸¸ÀÇ ¼ö");
+			System.out.println("ì˜ìœ ì•„");
 			break;
 		case 1:
-			System.out.println("10ÀÌ»ó 20¹Ì¸¸ÀÇ ¼ö");
+			System.out.println("10ëŒ€");
 			break;
 		case 2:
-			System.out.println("20ÀÌ»ó 30¹Ì¸¸ÀÇ ¼ö");
+			System.out.println("20ëŒ€");
 			break;
 			
 		default:
-			System.out.println("30ÀÌ»óÀÇ ¼ö");
+			System.out.println("30ëŒ€ ì´ìƒ");
 			
 		}
 		
