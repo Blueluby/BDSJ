@@ -6,7 +6,7 @@ public class j_71122_11 {
 		// TODO Auto-generated method stub
 		int i = 11;
 		
-		System.out.println("ī��Ʈ�ٿ�");
+		System.out.println("카운트다운");
 		
 		while(i-- != 0) {
 			System.out.println(i);
