@@ -11,6 +11,7 @@ public class j_71123_03 {
 		String sta = "";
 		System.out.println("합계를 구할 숫자 입력");
 		Scanner sc = new Scanner(System.in);
+		
 		while(f) {
 			n = sc.nextInt();
 			s += n;
