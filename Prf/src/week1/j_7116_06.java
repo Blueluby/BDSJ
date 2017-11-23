@@ -8,7 +8,7 @@ public class j_7116_06 {
 		// TODO Auto-generated method stub
 		int in;
 		
-		System.out.print("ผýภฺภิทย :");
+		System.out.print("์ •์ ์…๋ ฅ :");
 		
 		Scanner sc = new Scanner(System.in);
 //		String tmp = sc.nextLine();
@@ -17,12 +17,12 @@ public class j_7116_06 {
 		in = sc.nextInt();
 		
 		if(in==0) {
-			System.out.println("ภิทยวั ผýภฺดย 0");
+			System.out.println("0");
 		}
 		
 		if(in != 0) {
-			System.out.println("ภิทยวั ผýภฺดย 0ภฬ พฦดิ");
-			System.out.println("ภิทยวั ผýภฺดย "+in+" ภำ");
+			System.out.println("?????");
+			System.out.println("...? "+in+"์");
 			
 		}
 	}
