@@ -6,27 +6,27 @@ public class j_7117_04 {
 	public static void main(String[] args) {
 		int month = 0;
 		
-		System.out.print("¿À´Ã ¸î¿ùÀÎÁö ? :");
+		System.out.print("ì›” ì…ë ¥ ? :");
 		
 		Scanner sc = new Scanner(System.in);
 		month = sc.nextInt();
 
 		while(month<0 || month > 12) {
-			System.out.print("´Ù½Ã ¹°À½ ? :");
+			System.out.print("ì›” ì…ë ¥ ? :");
 			month = sc.nextInt();
 		}
 		switch(month) {
 		case 3: case 4: case 5:
-			System.out.println("º½ º½º½ º½ÀÌ ¿Ô¾î¿ä ±×´ë¿Í Ã³À½ ¸¸³µ´ø");
+			System.out.println("ë´„, ë´„ë´„ ë´„ì´ì™”ì–´ìš”~");
 			break;
 		case 6: case 7: case 8:
-			System.out.println("ÇÔ²² ¶°³ªÀÚ~ ¾ß¾ß¾ß¾ß¾ß ¹Ù~´Ù·Î");
+			System.out.println("ì—¬ë¦„ì•„ ë¶€íƒí•´");
 			break;
 		case 9: case 10: case 11:
-			System.out.println("ÀÌ¸¥ ¾ÆÄ§ ÀÛÀº »õµé ³ë·§¼Ò¸® µé·Á¿À¸é ¾ğÁ¦³ª ±×·¨µí ¾Æ½±°Ô ÀáÀ» ±ü´Ù ");
+			System.out.println("ê°€ì„ ì•„ì¹¨ í–‡ì‚´");
 			break;
 		default:
-			System.out.println("°Ü¿ï¿¡ ÅÂ¾î³­ ¾Æ¸§´Ù¿î ´ç½ÅÀº ´« Ã³·³ ±ú²ıÇÑ ³ª¸¸ÀÇ ´ç½Å ");
+			System.out.println("ê²¨ìš¸ì— íƒœì–´ë‚œ");
 		}
 	}
 }
