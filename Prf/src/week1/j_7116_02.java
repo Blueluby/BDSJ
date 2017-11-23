@@ -8,16 +8,16 @@ public class j_7116_02 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		char ch = ' ';
-		System.out.printf("¹®ÀÚ¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä = ");
+		System.out.printf("ë¬¸ìì—´ ì…ë ¥ : ");
 		
 		String in = sc.nextLine();
 		ch = in.charAt(0);
 		
 		if('0'<=ch && ch <='9') {
-			System.out.printf("ÀÔ·ÂÀº ¼ıÀÚ %d\n", (int)ch);
+			System.out.printf("ì´ê²ƒì€ ìˆ«ìì´ê³  %d\n", (int)ch);
 		}
 		if(('a'<=ch && ch <='z')||('A'<=ch && ch <= 'Z')) {
-			System.out.printf("ÀÔ·ÂÀº ¿µ¹®ÀÚ : %c\n", ch);
+			System.out.printf("ì´ê²ƒì€ ì•ŒíŒŒë²³ì´ê³  : %c\n", ch);
 		}
 		
 	}
