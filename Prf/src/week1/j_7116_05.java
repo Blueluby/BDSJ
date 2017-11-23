@@ -7,9 +7,9 @@ public class j_7116_05 {
 		int n = 120;
 		
 		if(n>0 ? (n%2)==0 : false){
-				System.out.println("¾ç¼öÀÌ¸é¼­ Â¦¼ö");
+				System.out.println("ì–‘ìˆ˜");
 		}else {
-			System.out.println("Æ²¸²");
+			System.out.println("ìŒìˆ˜");
 		}
 	}
 
