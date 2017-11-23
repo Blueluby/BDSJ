@@ -88,7 +88,7 @@ public class Cm {
 
 				for (int i = 0; i < tit.size(); i++) {
 					tit.set(i, tit.get(i).replaceAll("<span class=" + '"' + "odd_span" + '"' + ">", ""));
-					tit.set(i, tit.get(i).replaceAll(" ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½</span>", ""));
+					tit.set(i, tit.get(i).replaceAll(" »ó¼¼Á¤º¸ ÆäÀÌÁö ÀÌµ¿</span>", ""));
 					System.out.println(i + 1 + ". " + tit.get(i));
 				}
 			}
@@ -148,14 +148,14 @@ public class Cm {
 
 	private static String[] trilString() {
 		String[] tril = new String[8];
-		tril[0] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½ï¿½ï¿½<" + '/' + "span>";
-		tril[1] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½ï¿½ï¿½<" + '/' + "span>";
-		tril[2] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½ï¿½ï¿½Æ¿ï¿½<" + '/' + "span>";
-		tril[3] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½Ý±ï¿½<" + '/' + "span>";
-		tril[4] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<" + '/' + "span>";
-		tril[5] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½Ù¿ï¿½Îµï¿½<" + '/' + "span>";
-		tril[6] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½ï¿½ ï¿½Ù¿ï¿½<" + '/' + "span>";
-		tril[7] = "<span class=" + '"' + "odd_span" + '"' + ">ï¿½ï¿½Æ¼ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<" + '/' + "span>";
+		tril[0] = "<span class=" + '"' + "odd_span" + '"' + ">Àç»ý<" + '/' + "span>";
+		tril[1] = "<span class=" + '"' + "odd_span" + '"' + ">´ã±â<" + '/' + "span>";
+		tril[2] = "<span class=" + '"' + "odd_span" + '"' + ">ÁÁ¾Æ¿ä<" + '/' + "span>";
+		tril[3] = "<span class=" + '"' + "odd_span" + '"' + ">´Ý±â<" + '/' + "span>";
+		tril[4] = "<span class=" + '"' + "odd_span" + '"' + ">¹ÂÁ÷ºñµð¿À<" + '/' + "span>";
+		tril[5] = "<span class=" + '"' + "odd_span" + '"' + ">´Ù¿î·Îµå<" + '/' + "span>";
+		tril[6] = "<span class=" + '"' + "odd_span" + '"' + ">Æù ´Ù¿î<" + '/' + "span>";
+		tril[7] = "<span class=" + '"' + "odd_span" + '"' + ">¾ÆÆ¼½ºÆ®¸í ´õº¸±â<" + '/' + "span>";
 
 		return tril;
 	}
