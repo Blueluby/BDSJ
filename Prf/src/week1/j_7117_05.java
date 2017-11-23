@@ -9,22 +9,22 @@ public class j_7117_05 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int Lotto[] = new int[6];
-		// ¹è¿­ »ý¼º
+		// ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
 		int w = 0;
 		int [][]b = new int[46][6];
 		
 		cnt = new int[46];
 		
 		while (w < 46) {
-			//System.out.print("Lotto ¼±ÅÃ ¼ýÀÚ´Â ");
+			//System.out.print("Lotto ìƒì„± ");
 			for (int i = 0; i < Lotto.length; i++) {
 				Lotto[i] = (int) (Math.random() * 45) + 1;
-				// ·£´ý °ª ¹ÝÈ¯
+				// ì¤‘ë³µìˆ«ìž ì œê±°
 				for (int j = 0; j < i; j++) {
 					if (Lotto[i] == Lotto[j]) {
 						i--;
 						break;
-					} // Áßº¹ °ª Á¦°Å1
+					}
 				}
 			}
 			for (int i = 0; i < Lotto.length; i++) {
@@ -50,7 +50,7 @@ public class j_7117_05 {
 //			System.out.println(i + ". " + cnt[i]);
 		}
 		
-		System.out.println("ÀÌ°ÍÀº ¼ýÀÚÇ¥ÀÌ´Ù");
+		System.out.println("ï¿½Ì°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½Ì´ï¿½");
 		for(int i=0; i<46; i++) {
 			System.out.print("["+i+"] "+ cnt[i]+"\t");
 			if(i%10==0)
@@ -92,10 +92,10 @@ public class j_7117_05 {
 					pos[i]=j;
 				}
 			}
-			System.out.println("Á¦ÀÏ Å« ¹øÈ£ : "+ topLotto[i]+",\tpos : "+pos[i]);
-			System.out.print("ÃÊ±âÈ­ Àü : "+cnt[pos[i]] + "\t");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ Å« ï¿½ï¿½È£ : "+ topLotto[i]+",\tpos : "+pos[i]);
+			System.out.print("ï¿½Ê±ï¿½È­ ï¿½ï¿½ : "+cnt[pos[i]] + "\t");
 			cnt[pos[i]]=0;
-			System.out.println("ÃÊ±âÈ­ ÈÄ : "+cnt[pos[i]]);
+			System.out.println("ï¿½Ê±ï¿½È­ ï¿½ï¿½ : "+cnt[pos[i]]);
 		}
 		
 		
@@ -106,7 +106,7 @@ public class j_7117_05 {
 //			}
 			for (int i = 0; i < ln; i++) {
 				if (topLotto[m] < cnt[i]) {
-					System.out.println("Áö±Ý ¼ýÀÚ : "+cnt[i]+ "À§Ä¡ : "+i);
+					System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : "+cnt[i]+ "ï¿½ï¿½Ä¡ : "+i);
 					topLotto[m] = cnt[i];
 					pos[m] = i;
 				}
@@ -118,7 +118,7 @@ public class j_7117_05 {
 			//System.out.print(pos[m]+", ");
 		}
 //		for(int m=0;m<6;m++)
-			//System.out.println(" Á¦ÀÏ ¸¹ÀÌ ³ª¿Â È½¼ö : "+topLotto[m]+", ¸î¹ø? : "+pos[m]);
+			//System.out.println(" ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È½ï¿½ï¿½ : "+topLotto[m]+", ï¿½ï¿½ï¿½? : "+pos[m]);
 		 */
 		
 		
