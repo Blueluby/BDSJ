@@ -6,11 +6,11 @@ public class j_7117_06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//¿¹Á¦ 4-7
+		//ï¿½ï¿½ï¿½ï¿½ 4-7
 		
 		int user, com;
 		
-		System.out.print("°¡À§(1), ¹ÙÀ§(2), º¸(3) : ");
+		System.out.print("ê°€ìœ„(1), ë°”ìœ„(2), ë³´(3) : ");
 		Scanner sc = new Scanner(System.in);
 		
 		user = sc.nextInt();
@@ -19,28 +19,28 @@ public class j_7117_06 {
 		String mzp = "";
 		
 		mzp = mzp(user);
-		System.out.println("´ç½ÅÀº "+ mzp);
+		System.out.println("ì‚¬ìš©ì "+ mzp);
 		mzp = mzp(com);
-		System.out.println("ÄÄÀº "+ mzp );
+		System.out.println("ì»´í“¨í„°"+ mzp );
 		
 		switch(user-com) {
 		case 2: case -1:
-			System.out.println("ÆĞ¹è ");
+			System.out.println("ì´ê¹€ ");
 			break;
 		case 1: case -2:
-			System.out.println("½Â¸®");
+			System.out.println("ì§");
 			break;
 		case 0:
-			System.out.println("ºñ±è");
+			System.out.println("ë¹„ê¹€");
 			break;
 		}
 	}
 	
 	public static String mzp(int n) {
 		String re = "";
-		if(n == 1) { re = "°¡À§"; }
-		else if(n ==2) { re = "¹ÙÀ§"; }
-		else { re = "º¸"; }
+		if(n == 1) { re = "ê°€ìœ„"; }
+		else if(n ==2) { re = "ë°”ìœ„"; }
+		else { re = "ë³´"; }
 		return re;
 	}
 }
