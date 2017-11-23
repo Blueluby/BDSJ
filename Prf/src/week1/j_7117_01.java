@@ -10,13 +10,13 @@ public class j_7117_01 {
 		int g = 0;
 		String s = new  String();
 		
-		System.out.print("Á¡¼ö ÀÔ·Â : ");
+		System.out.print("ì ìˆ˜ ìž…ë ¥ : ");
 		
 		Scanner sc = new Scanner(System.in);
 		g = sc.nextInt();		
 		
 		while( g > 100 || g < 0 ) {
-			System.out.print("¹üÀ§°¡ ÀÌ»óÇÕ´Ï´Ù ÀçÀÔ·ÂÇÏ¼¼¿ä ( 0~100 ): ");
+			System.out.print("ìž˜ëª»ëœ ë²”ìœ„, ë‹¤ì‹œ ìž…ë ¥ ( 0~100 ): ");
 			g = sc.nextInt();
 		}
 		
@@ -34,6 +34,6 @@ public class j_7117_01 {
 			else if(g < 74) { s += "-"; }
 		} else { s += "F"; }
 		
-		System.out.println("´ç½ÅÀÇ ÇÐÁ¡Àº : " + s);
+		System.out.println("ì´ ê³¼ëª©ì˜ í•™ì ì€ : " + s);
 	}
 }
