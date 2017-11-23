@@ -9,12 +9,12 @@ public class j_7116_07 {
 		int s = 0;
 		char grade = ' ';
 
-		System.out.print("Á¡¼ö : ");
+		System.out.print("ì ìˆ˜ ìž…ë ¥ : ");
 		Scanner sc = new Scanner(System.in);
 		s = sc.nextInt();
 
 		if (s > 100) {
-			System.out.print("ÀÔ·Â ¿À·ù ÀçÀÔ·Â:");
+			System.out.print("ì ìˆ˜ ìž…ë ¥:");
 			s = sc.nextInt();
 		} else if (s >= 90) {
 			grade = 'A';
@@ -27,9 +27,9 @@ public class j_7116_07 {
 		}
 		
 		if (s <= 100) {
-			System.out.println("ÇÐÁ¡ " + grade + "ÀÓ.");
+			System.out.println("ë“±ê¸‰ì€ : " + grade + "ìž…ë‹ˆë‹¤");
 		} else {
-			System.out.println("³Ê¿¡°Ô ÁÙ Á¡¼ö´Â ¾ø´Ù °ÅÁþ¸»ÀïÀÌ¾ß");
+			System.out.println("ë„ˆì—ê²Œ ì¤„ ë“±ê¸‰ì€ ì—†ë‹¤ ì• ì†¡ì´ ì‚­ì œí•´");
 		}
 	}
 }
