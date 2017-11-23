@@ -6,11 +6,11 @@ public class j_71122_11 {
 		// TODO Auto-generated method stub
 		int i = 11;
 		
-		System.out.println("Ä«¿îÆ®´Ù¿î");
+		System.out.println("Ä«ï¿½ï¿½Æ®ï¿½Ù¿ï¿½");
 		
 		while(i-- != 0) {
 			System.out.println(i);
-			//¸¹Àº ¿¬»êÀ¸·Î µô·¹ÀÌ °É±â À§ÇØ
+			//ì—°ì‚° ë§ì´ í•´ì„œ ë”œë ˆì´ ê±´ë‹¤.
 			for(int j=0; j<2_000_000_000L; j++) {
 				;
 			}
