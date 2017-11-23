@@ -10,25 +10,25 @@ public class j_71122_01 {
 		Scanner s = new Scanner(System.in);
 
 		while(!(i<0)) {
-			System.out.print("³ªÀÌ ÀÔ·Â : ");
+			System.out.print("ìˆ«ìž ìž…ë ¥ : ");
 			i = s.nextInt();
 			
 			switch(i/10) {
 			case 0:
-				System.out.println("¾Æµ¿");
+				System.out.println("ì˜ìœ ì•„");
 				break;
 			case 1:
-				System.out.print("10´ë\n");
+				System.out.print("10ëŒ€\n");
 				break;
 			case 2:
-				System.out.print("20´ë\n");
+				System.out.print("20ëŒ€\n");
 				break;
 			case 3:
-				System.out.print("30´ë\n");
+				System.out.print("30ëŒ€\n");
 				break;
 			}
 			if(i<0) {
-				System.out.println("Á¾·á");
+				System.out.println("ë‹ê²ì´ ì•„ë‹ˆë¯€ë‹ˆë‹¤");
 				break;
 			}
 		}
