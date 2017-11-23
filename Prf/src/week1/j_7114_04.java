@@ -8,9 +8,9 @@ public class j_7114_04 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("ÀÔ·Â : ");
+		System.out.print("ì…ë ¥: ");
 		String input = sc.nextLine();
-		int n = Integer.parseInt(input);//StringÀ» »ç¿ëÇÑ ±¸¹öÁ¯.
+		int n = Integer.parseInt(input);//String ë²„í¼ì— ë„£ê³  í˜•ë³€í™˜ í•˜ëŠ” ì‹ì˜ 2ë²ˆì˜ê°€ê³µí•¨.
 		//int n = sc.nextInt();
 		
 		System.out.println("n : "+n);
