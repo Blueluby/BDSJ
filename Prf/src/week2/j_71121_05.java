@@ -16,7 +16,7 @@ public class j_71121_05 {
 		}
 		
 		if(search)
-			System.out.println("Á¤¼ö:"+n);
+			System.out.println("ìµœì†Œê³µë°°ìˆ˜:"+n);
 		else
 			System.out.println("x");
 	}
