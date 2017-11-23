@@ -12,7 +12,7 @@ public class j_7114_02 {
 		
 		final int NUM_LAST = 10;
 		
-		//finalÀÌ ºÙÀº »ó¼ö´Â ¼öÁ¤ÀÌ ¾Æ´ÏµÊ.
+		//finalì„ ì‚¬ìš©í•˜ì—¬ ìƒìˆ˜í™” ì‹œí‚´
 		//NUM_LAST = 20;
 		
 		System.out.print("NUM : " +NUM_LAST);
