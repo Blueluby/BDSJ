@@ -10,6 +10,10 @@ public class j_71124_03 {
 		System.out.println(s1.age);
 		s1.age = 25;
 		System.out.println(s1.age);
+		
+		Student s2 = new Student();
+		
+		
 	}
 }
 
