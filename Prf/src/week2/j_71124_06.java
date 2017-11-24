@@ -14,7 +14,5 @@ public class j_71124_06 {
 			return;
 		}
 		System.out.println("=> "+n1/n2);
-			
 	}
-
 }
