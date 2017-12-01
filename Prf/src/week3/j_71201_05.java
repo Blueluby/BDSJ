@@ -5,7 +5,7 @@ public class j_71201_05 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] score= {79,88,91,33,100,55,95};
+		int[] score= {79,88,91,33,89,55,95, 98, 55, 95, 10};
 		
 //		int max=0;
 //		int min=100;
@@ -25,7 +25,7 @@ public class j_71201_05 {
 			}
 		}
 		
-		System.out.println("\n최종\n");
+		System.out.println("\n최종");
 		System.out.println("최대:"+max);
 		System.out.println("최소:"+min);
 	}
