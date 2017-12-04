@@ -6,6 +6,7 @@ public class j_71204_09 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//시간제한
 		my();
 		goal();
 	}
