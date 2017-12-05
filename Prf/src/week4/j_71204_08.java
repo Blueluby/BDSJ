@@ -1,10 +1,12 @@
 package week4;
 
+import java.util.Arrays;
+
 public class j_71204_08 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] numArr = new int[10];
+		int[] numArr = new int[5];
 		
 		for(int i=0; i<numArr.length; i++) {
 			System.out.print(" "+(numArr[i] = (int)(Math.random() * 10)));
@@ -24,11 +26,8 @@ public class j_71204_08 {
 			}
 			if(!changed)
 				break;
-			
-			for(int k=0; k<numArr.length;k++) {
-				System.out.print(" "+numArr[k]);
-			}
-			System.out.println();
+
+			System.out.println(Arrays.toString(numArr));
 		}
 	}
 
