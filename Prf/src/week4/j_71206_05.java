@@ -18,7 +18,7 @@ public class j_71206_05 {
 			//for(int i=0; i<words.length; i++) {
 			int rand = (int)(Math.random() * 3);
 			//System.out.println("Q"+i+". "+words[rand][0]+"의 뜻은?");
-			System.out.println("Q"+cnt+". "+words[rand][0]+"의 뜻은?");
+			System.out.println("Q"+cnt+++". "+words[rand][0]+"의 뜻은?");
 			
 			String tmp = sc.nextLine();
 			
@@ -31,7 +31,6 @@ public class j_71206_05 {
 				System.out.println("종료합니다");
 				break;
 			}
-			cnt++;
 		}
 	}
 
