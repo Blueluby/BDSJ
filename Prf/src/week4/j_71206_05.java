@@ -22,14 +22,13 @@ public class j_71206_05 {
 			
 			String tmp = sc.nextLine();
 			
-			if(tmp.equals(words[rand][1])) {
-				System.out.println("정답");
-			}else {
-				System.out.println("틀렸. 답은 "+words[rand][1]);
-			}
 			if(tmp.equals("x")) {
 				System.out.println("종료합니다");
 				break;
+			}else if(tmp.equals(words[rand][1])) {
+				System.out.println("정답");
+			}else {
+				System.out.println("틀렸. 답은 "+words[rand][1]);
 			}
 		}
 	}
