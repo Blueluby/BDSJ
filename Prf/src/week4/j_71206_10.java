@@ -14,6 +14,13 @@ public class j_71206_10 {
 			System.out.print("수" + i + " = ");
 			geti[i] = sc.nextInt();
 		}
+
+		sort(geti);
+
+		System.out.println("정렬 순서 :" + Arrays.toString(geti));
+	}
+	
+	public static void sort(int [] geti) {
 		for (int i = 0; i < geti.length - 1; i++)
 			for (int j = 0; j < geti.length - 1 - i; j++)
 				if (geti[j] < geti[j + 1]) {
@@ -21,7 +28,5 @@ public class j_71206_10 {
 					geti[j] = geti[j + 1];
 					geti[j + 1] = tmp;
 				}
-
-		System.out.println("정렬 순서 :" + Arrays.toString(geti));
 	}
 }
