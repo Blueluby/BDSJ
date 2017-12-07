@@ -11,6 +11,10 @@ public class j_71207_05 {
 		
 	}
 	
+	public static void show(int a) {
+		System.out.println("a : " + a);
+	}
+	
 	public static void show(int a, int b, int... num) {
 		System.out.print("a:"+a+", b:"+b);
 		for(int i=0; i<num.length; i++) {
