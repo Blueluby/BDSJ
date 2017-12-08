@@ -1,5 +1,7 @@
 package week4;
 
+import java.time.Instant;
+
 public class j_71208_03 {
 
 	public static void main(String[] args) {
@@ -19,6 +21,9 @@ public class j_71208_03 {
 		c1.display();
 		c2.display("c2");
 		c3.display("c3");
+		
+		Car c4 = new Car();
+		c4.display();
 	}
 
 }
@@ -27,28 +32,30 @@ class Car{
 	String color;
 	String gearType;
 	int door;
-	int count = 0;
+	static int count = 0;
 	int serialNo=0;
 	
-	Car(){
-		this("white","auto",4);
+	{//Instance 초기화 블록
 		count++;
-		serialNo = count;
+		serialNo = count;		
+	}
+	
+	Car(){
+//		this("white","auto",4);
+//		count++;
+//		serialNo = count;
 	}
 	Car(Car c){
-		count++;
-		serialNo = count;
+//		count++;
+//		serialNo = count;
 		
 		this.color = c.color;
 		this.gearType = c.gearType;
 		this.door = c.door;
-		
-		count++;
-		serialNo = count;
 	}
 	Car(String c, String g, int d){
-		count++;
-		serialNo = count;
+//		count++;
+//		serialNo = count;
 		
 		color = c;
 		gearType = g;
