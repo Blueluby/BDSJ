@@ -21,6 +21,13 @@ public class j_71208_02 {
 
 		sel.show();
 		buy.show();
+		
+		Buyer b1 = new Buyer();
+		Seller s1 = new Seller(40, 2000);
+		
+		b1.buyB(s1, 2);
+		b1.show();
+		s1.show();
 	}
 
 }
@@ -59,7 +66,7 @@ class Buyer {
 class Seller {
 	private int sagwa;
 	private int money;
-	final int aprice = 1000;
+	int aprice = 1000;
 	String name;
 
 	public int getSagwa() {
@@ -80,7 +87,10 @@ class Seller {
 		sagwa = 20;
 		money = 0;
 	}
-
+	Seller(int cnt, int price){
+		sagwa = cnt;
+		aprice = price;
+	}
 	public void show() {
 		System.out.println(name);
 		System.out.println("남은 사과 :" + sagwa);
@@ -98,5 +108,9 @@ class Seller {
 		sagwa -= count;
 		money += count * aprice;
 		return count * aprice;
+	}
+	public void setPrice(int a) {
+		System.out.println("사과금액변경 : "+aprice+"->"+a);
+		aprice = a;
 	}
 }
