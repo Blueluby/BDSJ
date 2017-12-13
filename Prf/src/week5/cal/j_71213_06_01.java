@@ -1,10 +1,10 @@
-package week5;
+package week5.cal;
 
-public class j_71213_06{
+public class j_71213_06_01{
 	private Adder adder;
 	private Subtractor subtractor;
 	
-	public j_71213_06() {
+	public j_71213_06_01() {
 		adder = new Adder();
 		subtractor = new Subtractor();
 	}
