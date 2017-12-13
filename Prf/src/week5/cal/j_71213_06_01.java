@@ -4,9 +4,17 @@ public class j_71213_06_01{
 	private Adder adder;
 	private Subtractor subtractor;
 	
-	public j_71213_06_01() {
+	private j_71213_06_01() {
 		adder = new Adder();
 		subtractor = new Subtractor();
+	}
+	
+	private static j_71213_06_01 c = new j_71213_06_01();
+	
+	public static j_71213_06_01 getCarculator() {
+		if(c==null)
+			c = new j_71213_06_01();
+		return c;
 	}
 	
 	public int addTwoNumber(int n1, int n2) {
