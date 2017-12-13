@@ -16,6 +16,7 @@ public class j_71212_01 {
 		
 		st.showStack();
 		
+		st.peek();
 		st.pop();
 		st.pop();
 		st.showStack();
@@ -55,6 +56,9 @@ class ArrayStack{	// 스택 클래스
 			System.out.println("Deleting fail! Array Stack is empty");
 			System.out.println("Pop : "+ (stack-1));
 		}
+	}
+	public void peek() {
+		System.out.println("top에 있는 아이템 출력 :"+i[stack-1]);
 	}
 	
 	public void showStack() {//스택 확인
