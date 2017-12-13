@@ -5,7 +5,7 @@ public class j_71213_03 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		_Point p = new _Point();
-		p.setX(105);;
+		p.setX(105);
 		
 		p.show();
 	}
