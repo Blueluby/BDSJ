@@ -1,6 +1,6 @@
 package week5.pro;
 
-public class j_71213_04_B {
+class j_71213_04_B {
 	j_71213_04_A a = new j_71213_04_A();
 	
 	void set() {
