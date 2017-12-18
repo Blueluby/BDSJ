@@ -10,9 +10,16 @@ public class j_71218_07 {
 		o.show();
 		
 		Outer.Inner i = o.new Inner();
+		Outer.Inner i2 = o.new Inner();
 		
-		i.show_in();	
+		i.show_in();
 		
+		o.x = 55;
+		o.show();
+		i.a = 55;
+		o.show();
+		i.show_in();
+		i2.show_in();
 		
 	}
 }
