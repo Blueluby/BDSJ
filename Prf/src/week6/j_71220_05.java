@@ -22,7 +22,6 @@ public class j_71220_05 {
 				
 			}
 		} catch (IOException e) {
-			
 			System.out.println("exception");
 			
 			e.printStackTrace();
