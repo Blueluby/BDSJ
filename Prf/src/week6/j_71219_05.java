@@ -13,6 +13,11 @@ class Outer2{
 			int iv=400;
 		}
 	}
+	void myMethod2() {
+		class LocalInner{
+			int iv=400;
+		}
+	}
 }
 public class j_71219_05 {
 
