@@ -1,6 +1,7 @@
 package week6;
 
 import java.io.File;
+import java.io.FileInputStream;
 
 public class j_71220_10 {
 
@@ -22,6 +23,10 @@ public class j_71220_10 {
 			throw new Exception("파일 이름 유효하지 않음");
 		File f = new File(fileName);
 		f.createNewFile();
+		
+		FileInputStream fio = new FileInputStream(f);
+		fio.close();
+		
 		return f;
 	}
 
