@@ -10,6 +10,7 @@ public class j_71222_10 {
 		FruitBox_10<Fruit_10> fb = new FruitBox_10<Fruit_10>();
 		FruitBox_10<Apple_10> ab = new FruitBox_10<Apple_10>();
 		
+		
 		fb.add(new Apple_10());
 		fb.add(new Grape_10());
 		
@@ -19,6 +20,8 @@ public class j_71222_10 {
 		System.out.println(Juicer_10.makeJuice(fb));
 		System.out.println(Juicer_10.makeJuice(ab));
 		
+		FruitBox_10<? extends Fruit_10> abox = null;
+		FruitBox_10<? extends Fruit_10> aapplebox = (FruitBox_10<Apple_10>) abox;
 		
 		
 	}
