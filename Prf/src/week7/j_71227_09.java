@@ -34,7 +34,7 @@ public class j_71227_09 {
 		for(int i : arr7) {
 			char[] graph = new char[i];
 			Arrays.fill(graph, '*');
-			System.out.println(new String(graph)+i);
+			System.out.println(i + " |"+ new String(graph));
 		}
 		
 		String[][] str2D = new String[][] {{"aaa","bbb"},{"AAA","BBB"}};
