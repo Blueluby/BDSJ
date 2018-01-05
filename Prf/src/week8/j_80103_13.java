@@ -18,6 +18,7 @@ public class j_80103_13 {
 class Button8133 extends Frame{
 	
 	private Button[] btns = new Button[13];
+	private String[] bot = {"*","0","#"};
 	
 //	private Button btn1 = new Button("1");
 //	private Button btn2 = new Button("2");
@@ -50,13 +51,23 @@ class Button8133 extends Frame{
 	
 	public void init() {
 		this.setLayout(new GridLayout(4, 3));
+		
+//		for(int i=1; i<13; i++) {
+//			String st = i+"";
+//			if(i==10)	st = "*";
+//			else if(i==11) st = "0";
+//			else if(i==12) st = "#";
+//			
+//			btns[i] = new Button(st);
+//			this.add(btns[i]);
+//		}
+		
+		//강사
 		for(int i=1; i<13; i++) {
-			String st = i+"";
-			if(i==10)	st = "*";
-			else if(i==11) st = "0";
-			else if(i==12) st = "#";
-			
-			btns[i] = new Button(st);
+			if(i<10)
+				btns[i] = new Button(String.valueOf(i));
+			else
+				btns[i] = new Button(bot[i-10]);
 			this.add(btns[i]);
 		}
 		
