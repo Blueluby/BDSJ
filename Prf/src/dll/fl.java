@@ -1,5 +1,6 @@
 package dll;
 
+import java.awt.FileDialog;
 import java.io.File;
 import java.io.IOException;
 import java.sql.Date;
@@ -36,5 +37,39 @@ public class fl {
 		}
 	}
 	
+	public boolean ckFile(String Filename) {
+		File f = new File(Filename);
+		
+		if(f.isFile())
+			return true;
+		else
+			return false;
+	}
+	
+	public boolean ckFolder(String folderPath) {
+		File fold = new File(folderPath);
+		
+		if(fold.exists() == false) {
+			System.out.println("폴더가 없습니다.");
+			fold.mkdir();
+			return true;
+		}else {
+			System.out.println("폴더가 이미 존재함.");
+			return false;
+			
+		}
+	}
+	
+	/*public String selectFile() {
+		
+		FileDialog fd = new FileDialog("File Select", FileDialog.LOAD);
+		fd.setVisible(true);
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append(fd.getDirectory());
+		sb.append(fd.getFile());
+		return sb.toString();
+	}
+	*/
 	
 }
